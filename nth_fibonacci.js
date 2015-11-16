@@ -40,7 +40,7 @@ var functional_memoize = function(n) {
 
 var procedural_memoize__cache = {
   1: 1,
-  2: 2,
+  2: 1,
 };
 var procedural_memoize__cache_max = 2;
 var procedural_memoize = function(n) {
