@@ -1,0 +1,22 @@
+{
+  "name": "alyssackwan__mentoring__nth_fibonacci",
+  "version": "1.0.0",
+  "description": "",
+  "author": "Alyssa Kwan",
+  "license": "MIT",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node --stack-size=100000 nth_fibonacci.js"
+  },
+  "dependencies": {
+    "performance-now": "*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alyssackwan/mentoring__nth_fibonacci.git"
+  },
+  "bugs": {
+    "url": "https://github.com/alyssackwan/mentoring__nth_fibonacci/issues"
+  },
+  "homepage": "https://github.com/alyssackwan/mentoring__nth_fibonacci#readme"
+}
