@@ -69,11 +69,12 @@ var test_harness = function(m, r) {
 
   // register above implementations in a loop-able construct for testing
   var functions = {
-    // functional: functional,
+    functional: functional,
     procedural: procedural,
     functional_memoize: functional_memoize,
     procedural_memoize: procedural_memoize,
   };
+  if (r > 40) delete functions['functional'];
 
   // randomly generate a set of inputs
   // use the same inputs for each function for a more fair comparison
@@ -95,6 +96,7 @@ var test_harness = function(m, r) {
   }
 };
 
+test_harness(5, 40);
 test_harness(100, 10000);
 test_harness(100, 100000);
 test_harness(1000, 100000);
